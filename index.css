@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+.div_planet{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 47%;
+}
+
+.div_line_1{
+    width: 70px;
+    height: 100px;
+    border: 2px white solid;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 45%;
+    transform: perspective(300px) rotateX(-280deg);
+    transition: 1s all;
+}
+.div_line_2{
+    width: 100px;
+    height: 120px;
+    border: 2px white solid;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 18.4%;
+    margin-left: 44%;
+    transform: perspective(300px) rotateX(-280deg);
+    transition: 1s all;
+}
+.div_line_3{
+    width: 170px;
+    height: 160px;
+    border: 2px white solid;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 42%;
+    transform: perspective(300px) rotateX(-280deg);
+    transition: 1s all;
+}
+.div_line_4{
+    width: 300px;
+    height: 300px;
+    border: 2px white solid;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 38%;
+    transform: perspective(300px) rotateX(-280deg);
+    transition: 1s all;
+}
+.div_line_5{
+    width: 600px;
+    height: 500px;
+    border: 12px white solid;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 30%;
+    transform: perspective(300px) rotateX(-280deg);
+    transition: 1s all;
+}
